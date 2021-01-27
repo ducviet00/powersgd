@@ -16,8 +16,8 @@ from timer import Timer
 config = dict(
     distributed_backend="nccl",
     device="cuda",
-    rank=1,
-    n_workers=2,
+    rank=0,
+    n_workers=4,
     distributed_init_file=None,
     message_sizes=[
         4,

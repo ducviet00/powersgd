@@ -1,6 +1,8 @@
 output.tmp
 __pycache__
 .vscode/
+powersgd_env/
 ._*.html
 .AppleDouble/
-test*.py
+#test*.py
+*.pyc
